@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int valueOfForce(int mass,int acceleration) {
+    return mass*acceleration;
+}
+int main() {
+    int mass = 0;
+    int acceleration = 0;
+    printf("What is the mass");
+    scanf("%d",&mass);
+    printf("What is the acceleration");
+    scanf("%d",&acceleration);
+    printf("The force is %d",valueOfForce(mass,acceleration));
+    return 0;
+}

@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int valueOfCylinder(int height, int radius ) {
+    return 3.14*radius*radius*height;
+}
+int main() {
+    int radius = 0;
+    int height = 0;
+    printf("What is the Radius");
+    scanf("%d",&radius);
+    printf("What is the height");
+    scanf("%d",&height);
+    printf("The area of the cylinder is %i",valueOfCylinder(radius,height));
+    return 0;
+}

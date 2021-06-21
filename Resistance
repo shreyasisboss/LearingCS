@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int theParralelResistaence(int num1,int num2, int num3 ) {
+    return 1/(1/num1+1/num2+1/num3);
+}
+int main() {
+    int num1 = 0;
+    int num2 = 0;
+    int num3 = 0;
+    printf("What is 1 resistors");
+    scanf("%d",num1);
+    printf("What is 2 resistors");
+    scanf("%d",num2);
+    printf("What is 3 resistors");
+    scanf("%d",num2);
+    printf("The Reisistence is %d"(theParralelResistaence,num1,num2,num3));
+
+     return 0;
+
+}
